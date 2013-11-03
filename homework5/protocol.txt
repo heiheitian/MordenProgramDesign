@@ -1,0 +1,22 @@
+server:
+	newround		新一轮
+		timeout		时限
+		count		第几轮
+		yourpoint	客户端的分数
+	confirmplayer	确认玩家
+		username	用户名
+		token		身份口令
+	confirmsubmit	确认提交
+		point		点数
+	confirmquery	确认查询
+		yourpoint	客户端的分数
+		lastg		最后一次G点
+		lastwinner	上次胜利者
+		
+client:
+	newplayer		登记玩家
+		username	用户名
+	submit			提交数字
+		point		数字
+	query			查询
+		(None)		(无)
